@@ -1,0 +1,24 @@
+{
+  "signup_data":{
+    "firstname": "Tobe",
+    "lastname": "Ukoha",
+    "email": "",
+    "password": "Testing1234!",
+    "namelength": "",
+    "invalid_character": "",
+    "mismatch_password": "Qieks293!@",
+    "uppercase_email": "",
+    "invalid_email": "",
+    "new_password": ""
+  },
+
+  "login_data": {
+    "valid_email": "qualitytester@yopmail.com",
+    "valid_password": "Qualitytester1234!",
+    "incorrect_email": "incorrectemail@yopmail.com",
+    "incorrect_password": "Incorrectpass4321!",
+    "invalid_email": "tester.yopmail.com",
+    "space_emailPart": "quality tester@yopmail.com",
+    "space_emailComplete": "tester@yopmail.com"
+  }
+}

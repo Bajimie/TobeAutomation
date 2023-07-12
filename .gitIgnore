@@ -1,0 +1,4 @@
+cypress/videos
+screenshots
+.idea
+node_modules
