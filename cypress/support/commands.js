@@ -1,8 +1,6 @@
 /// <reference types= "cypress" />
 /// <reference types= "cypress-iframe" />
 
-//import "cypress-iframe"
-
 import YopMail from "../pageObjects/YopMail";
 const yopMail = new YopMail();
 
@@ -42,7 +40,6 @@ Cypress.Commands.add("forceVisit", (url, username) => {
 
         cy.window().then(win => {
             cy.go('back')
-            //return win.open(oldUrl)
         })
     })
 
