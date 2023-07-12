@@ -42,7 +42,6 @@ Cypress.Commands.add("forceVisit", (url, username) => {
 
         cy.window().then(win => {
             cy.go('back')
-            //return win.open(oldUrl)
         })
     })
 
