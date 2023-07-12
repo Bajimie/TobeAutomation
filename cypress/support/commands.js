@@ -1,8 +1,6 @@
 /// <reference types= "cypress" />
 /// <reference types= "cypress-iframe" />
 
-//import "cypress-iframe"
-
 import YopMail from "../pageObjects/YopMail";
 const yopMail = new YopMail();
 
